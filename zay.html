@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Zayda Posadas De La Luz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            width: 90%;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+
+        img.profile {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 5px solid white;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        h1 { color: #ff4d88; }
+        h2 { margin-top: 40px; color: #6a4c93; }
+
+        p {
+            color: #444;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #ff4d88;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e6005c;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="zay.jpg" alt="Foto de Zayda" class="profile">
+
+    <h1>Zayda Posadas De La Luz</h1>
+    <p><strong>Edad:</strong> 18 años</p>
+    <p><strong>Ciudad:</strong> Tetela de Ocampo</p>
+
+    <h2> Acerca de mi</h2>
+    <p>
+        Soy Zayda Posadas De La Luz y soy estudiante del Cobaep Plantel 29.
+        Me gustan mucho las plantas y los animales.
+        Tengo una familia de 7 integrantes a los cuales siempre he apreciado mucho. Tambien me gusta mucho el color verde y jugar minecraft.
+    </p>
+
+    <h2> Mis hobbies</h2>
+    <p>Me gusta pintar, dibujar, hacer manualidades, andar en bici y caminar.</p>
+
+    <h2> Portafolio</h2>
+    <p>Aquí puedes ver algunas imagenes de lo q mas me agrada:</p>
+
+    <div class="gallery">
+        <img src="dibujo1.jpg" alt="foto 1">
+        <img src="dibujo2.jpg" alt="foto 2">
+        <img src="dibujo3.jpg" alt="foto 3">
+        <img src="dibujo4.jpg" alt="foto 4">
+    <img src="dibujo5.jpg" alt="foto 5">
+    <img src="dibujo6.jpg" alt="foto 6">
+    <img src="dibujo7.jpg" alt="foto 7">
+    </div>
+
+    <a href="https://instagram.com/zay_delaluz" class="btn" target="_blank">
+        Mi Instagram
+    </a>
+
+</div>
+
+</body>
+</html>
